@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin : 0 auto;
+}
+
+h1{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.first-div{
+    display: flex;
+    justify-content: center;
+
+}
+
+input {
+    padding: 15px;
+    margin-right: 10px;
+    border: 2px solid #E5C9C5;
+    outline: none;
+    
+}
+input:focus{
+   border:2px solid #e4371c;
+}
+button{
+    padding: 19px;
+    border: 2px solid #E5C9C5 ;
+    background-color: #E5C9C5;
+    color: white;
+}
+.require{
+    padding: 20px 0px;
+    font-weight: bold;
+    text-align: center;
+}
+input[type = "text"] {
+    font-size: 20px;
+}
+input[type = "number"] {
+    font-size: 20px;
+}
+.wrapper {
+    margin: 20px 100px;
+
+}
+.division { 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 20px 5px;
+}
+.name-div{
+    padding-left: 10px;
+    display: block;
+}
+.text {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.tim{
+    font-size: 15px;
+    opacity: 0.5;
+}
+.manipulate{
+    padding-right: 50px;
+    display: flex;
+}
+.a{
+    padding: 30px;
+    margin-right: 10px;
+    border-radius: 100%;
+    background-color: white;
+}
+.a:hover{
+    background-color: rgb(51, 165, 194);
+}
+.delete {
+    color: red;
+}
